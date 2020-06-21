@@ -3,9 +3,13 @@
 sudo apt install git
 
 **Run script for quick i3wm setup**
+cd ~/Downloads && git clone https://github.com/codemelinux/i3wm.git
+cd i3wm && bash Custom-i3wmInstallScript.sh
 
 
-
+**************************************************************
+++++ This section contains personal config ++++
+**************************************************************
 
 ***Download Elementary+i3wm files***
 cd ~/Downloads && git clone https://github.com/codemelinux/Elementary-i3wm.git
