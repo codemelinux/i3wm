@@ -1,3 +1,11 @@
                                  i3wm Install Sheet
-                                
+**Install git**
+sudo apt install git
 
+**Run script for quick i3wm setup**
+
+
+
+
+***Download Elementary+i3wm files***
+cd ~/Downloads && git clone https://github.com/codemelinux/Elementary-i3wm.git
