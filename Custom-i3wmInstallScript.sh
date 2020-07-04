@@ -59,9 +59,11 @@ echo "###############################
 mv ~/.config/i3/ ~/.config/i3.old
 mv ~/.config/polybar/ ~/.config/polybar.old
 mv ~/.bashrc ~/.bashrc.old
+mv ~/.fonts/ ~/.fonts.old
 
 cd ~/Downloads/i3wm && mv i3/ ~/.config/i3/
 cd ~/Downloads/i3wm && mv polybar/ ~/.config/polybar/
 cd ~/Downloads/i3wm && mv .bashrc ~/.bashrc
+cd ~/Downloads/i3wm && mv .fonts/ ~/.fonts/
 
 
