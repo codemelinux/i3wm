@@ -16,6 +16,8 @@ sudo add-apt-repository ppa:kgilmer/speed-ricer
 echo "Installing i3wm Libraries including i3-gaps."
 echo ""
 
+sudo apt install snapd
+
 sudo apt install -y i3-gaps i3lock python3-pip gedit ranger arandr nitrogen feh compton rofi variety
 
 echo "###############################
@@ -34,11 +36,12 @@ echo "###############################
 echo ""
 echo "" 
 
-sudo apt-get install -y cmake cmake-data libcairo2-dev libxcb1-dev libxcb-ewmh-dev libxcb-icccm4-dev libxcb-image0-dev python3-xcbgen libxcb-randr0-dev libxcb-util0-dev libxcb-xkb-dev pkg-config python-xcbgen xcb-proto libxcb-xrm-dev libasound2-dev libmpdclient-dev libiw-dev libcurl4-openssl-dev libpulse-dev libxcb-composite0-dev xcb libxcb-ewmh2 libjsoncpp-dev
+#sudo apt-get install -y cmake cmake-data libcairo2-dev libxcb1-dev libxcb-ewmh-dev libxcb-icccm4-dev libxcb-image0-dev python3-xcbgen libxcb-randr0-dev libxcb-util0-dev libxcb-xkb-dev pkg-config python-xcbgen xcb-proto libxcb-xrm-dev libasound2-dev libmpdclient-dev libiw-dev libcurl4-openssl-dev libpulse-dev libxcb-composite0-dev xcb libxcb-ewmh2 libjsoncpp-dev
 
-cd ~/Downloads && git clone https://github.com/jaagr/polybar.git
+#cd ~/Downloads && git clone https://github.com/jaagr/polybar.git
 
-cd polybar && ./build.sh
+#cd polybar && ./build.sh
+snap install --edge polybar-git --devmode
 
 echo ""
 echo "" 
