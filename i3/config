@@ -499,11 +499,10 @@ exec_always --no-startup-id $HOME/.config/i3/autostart.sh
 		##       >>> Pywal setup <<<      ##
 ##########################################################
 
-bindsym $alt+Shift+n exec variety -n && wal -i $(cat $HOME/.config/variety/wallpaper/wallpaper.jpg.txt) ### Next Pywal wallpaper
-bindsym $alt+Shift+t exec variety -t && wal -i $(cat $HOME/.config/variety/wallpaper/wallpaper.jpg.txt) ### Trash Pywal wallpaper
-bindsym $alt+Shift+u exec wal -i $(cat $HOME/.config/variety/wallpaper/wallpaper.jpg.txt) ### Update pywal wallpaper
-bindsym $alt+Shift+p exec variety -p  && wal -i $(cat $HOME/.config/variety/wallpaper/wallpaper.jpg.txt) ### Previous Pywal wallpaper
-
+bindsym $alt+Shift+n exec variety -n && ~/.local/bin/wal -i $(cat $HOME/.config/variety/wallpaper/wallpaper.jpg.txt)  ### Next Pywal wallpaper
+bindsym $alt+Shift+t exec variety -t && ~/.local/bin/wal -i $(cat $HOME/.config/variety/wallpaper/wallpaper.jpg.txt) ### Trash Pywal wallpaper
+bindsym $alt+Shift+u exec ~/.local/bin/wal -i $(cat $HOME/.config/variety/wallpaper/wallpaper.jpg.txt) ### Update pywal wallpaper
+bindsym $alt+Shift+p exec variety -p && ~/.local/bin/wal -i $(cat $HOME/.config/variety/wallpaper/wallpaper.jpg.txt) ### Previous Pywal wallpaper
 
 
 ##########################################################
