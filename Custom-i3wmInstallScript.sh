@@ -16,7 +16,7 @@ sudo add-apt-repository ppa:kgilmer/speed-ricer
 echo "Installing i3wm Libraries including i3-gaps."
 echo ""
 
-sudo apt update && sudo apt install -y i3-gaps i3lock python3-pip gedit ranger arandr nitrogen feh compton rofi variety
+sudo apt install -y i3-gaps i3lock python3-pip gedit ranger arandr nitrogen feh compton rofi variety
 
 echo "###############################
 ###   Installing pywal   #####
@@ -48,7 +48,20 @@ echo "###############################
 ###   Installing Jgmenu   #####
 ###############################"
 
-cd ~/Downloads && git clone https://github.com/codemelinux/jgmenuScript.git
+#cd ~/Downloads && git clone https://github.com/codemelinux/jgmenuScript.git
 
-cd jgmenuScript && bash jgmenuInstall.sh
+#cd jgmenuScript && bash jgmenuInstall.sh
+
+echo "###############################
+###   moving i3wm and polybar config files   #####
+###############################"
+
+mv ~/.config/i3/ ~/.config/i3.old
+mv ~/.config/polybar/ ~/.config/polybar.old
+mv ~/.bashrc ~/.bashrc.old
+
+cd ~/Downloads/i3wm && mv i3/ ~/.config/i3/
+cd ~/Downloads/i3wm && mv polybar/ ~/.config/polybar/
+cd ~/Downloads/i3wm && mv .bashrc ~/.bashrc
+
 
