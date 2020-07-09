@@ -74,7 +74,7 @@ cd ~/Downloads/i3wm && mv polybar/ ~/.config/polybar/
 cd ~/Downloads/i3wm && mv .bashrc ~/.bashrc
 cd ~/Downloads/i3wm && mv .fonts/ ~/.fonts/
 
-sudo chmod -R 774 ~/.config/polybar/
-sudo chmod -R 774 ~/.config/i3/
+sudo chmod -R 777 ~/.config/polybar/
+sudo chmod -R 777 ~/.config/i3/
 
 
