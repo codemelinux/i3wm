@@ -13,12 +13,14 @@ echo ""
 
 sudo add-apt-repository ppa:kgilmer/speed-ricer
 
+sudo add-apt-repository ppa:mmstick76/alacritty 
+
 echo "Installing i3wm Libraries including i3-gaps."
 echo ""
 
 sudo apt install snapd
 
-sudo apt install -y i3-gaps i3lock python3-pip gedit ranger arandr nitrogen feh compton rofi variety polybar
+sudo apt install -y i3-gaps i3lock python3-pip gedit ranger arandr nitrogen feh compton rofi variety alacritty polybar 
 
 echo "###############################
 ###   Installing pywal   #####
