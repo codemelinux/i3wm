@@ -27,7 +27,8 @@ echo "###############################
 ###############################"
 echo ""
 echo "" 
-pip3 install pywal
+pip3 install pywal i3ipc
+
 echo "Successfully installed."
 echo ""
 echo "" 
