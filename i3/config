@@ -244,7 +244,9 @@ bindsym $mod+r exec gnome-terminal -e ranger
 # Cycle wallpapers and apply new colorscheme.
 bindsym $mod+n exec "wal -i $HOME/Pictures -o wal-set"
 
-
+#### Hide Opened Applications ####
+bindsym $alt+Shift+minus move scratchpad
+bindsym $alt+minus scratchpad show
 
 
 ##########################################################
