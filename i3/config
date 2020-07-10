@@ -496,6 +496,7 @@ exec_always --no-startup-id gnome-power-manager
 
 #exec --no-startup-id xfce4-panel --disable-wm-check
 exec_always --no-startup-id $HOME/.config/i3/autostart.sh
+exec_always --no-startup-id ~/.config/i3/scripts/autotiling.py
 
 
 ##########################################################
