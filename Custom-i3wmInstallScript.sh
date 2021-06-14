@@ -28,6 +28,7 @@ echo "###############################
 echo ""
 echo "" 
 pip3 install pywal i3ipc
+pip install autotiling
 
 echo "Successfully installed."
 echo ""
