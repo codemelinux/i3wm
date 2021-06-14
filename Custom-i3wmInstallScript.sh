@@ -20,7 +20,7 @@ echo ""
 
 sudo apt install snapd
 
-sudo apt install -y i3-gaps i3lock python3-pip gedit ranger arandr nitrogen feh compton rofi variety alacritty polybar 
+sudo apt install -y i3-gaps i3lock python3-pip gedit ranger arandr nitrogen feh compton rofi variety alacritty polybar ffmpeg imagemagick
 
 echo "###############################
 ###   Installing pywal   #####
